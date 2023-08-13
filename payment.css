@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Courier+Prime:ital@1&family=Gasoek+One&family=Oswald&family=Roboto+Mono:ital,wght@1,100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:whitesmoke;
+    height: 10vh;
+    background-color: #219ebc;
+}
+.navbar a{
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.navbar a:hover{
+    color: #003566;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.name img{
+    height: 8vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #219ebc;
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s; 
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 100vw;
+}
+.qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+.qr img{
+    height: 70vh;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 50vw;
+}
+button{
+    height: 5vh;
+    width: 10vw;
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+button a{
+    color: black;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    color: black;
+    height: 5vh;
+    width: 20vw;
+    font-size: 1.2rem;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 1.25rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .name{
+        width: 15vw;
+    }
+    .name img{
+        height: 8vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200vh;
+        width: 100vw;
+    }
+    .qr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+    .qr img{
+        height: 80vh;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80vh;
+        width: 80vw;
+    }
+    button{
+        height: 8vh;
+        width: 40vw;
+        background-color: orange;
+        color: black;
+        border-radius: 20px;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 3vh;
+    }
+    button a{
+        color: black;
+    }
+    label{
+        font-size: 1.8rem;
+    }
+    input{
+        color: black;
+        height: 5vh;
+        width: 60vw;
+        font-size: 1.2rem;
+        border: 5px solid black;
+    }   
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 2rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .name{
+        width: 30vw;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 2.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200vh;
+        width: 100vw;
+    }
+    .qr{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80vw;
+    }
+    .qr img{
+        height: 80vh;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80vh;
+        width: 50vw;
+    }
+    button{
+        height: 8vh;
+        width: 40vw;
+        background-color: orange;
+        color: black;
+        border-radius: 20px;
+        font-size: 2rem;
+        font-weight: 700;
+        cursor: pointer;
+        margin-top: 3vh;
+    }
+    button a{
+        color: black;
+    }
+    label{
+        font-size: 3rem;
+    }
+    input{
+        color: black;
+        height: 5vh;
+        width: 70vw;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Courier+Prime:ital@1&family=Gasoek+One&family=Oswald&family=Roboto+Mono:ital,wght@1,100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:whitesmoke;
+    height: 10vh;
+    background-color: #219ebc;
+}
+.navbar a{
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.navbar a:hover{
+    color: #003566;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.name img{
+    height: 8vh;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #219ebc;
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s; 
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.info{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2.5rem;
+}
+.pic{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+img{
+    height: 60vh;
+}
+
+@media screen and (min-width:360px) and (max-width:640px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 1.25rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .name{
+        width: 15vw;
+    }
+    .name img{
+        height: 8vh;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 140vh;
+    }
+    .info{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2.2rem;
+    }
+    .pic{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    img{
+        height: 40vh;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1000px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 2rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .name{
+        width: 25vw;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 2.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 130vh;
+    }
+    .info{
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 2.5rem;
+    }
+    .pic{
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    img{
+        height: 40vh;
+    }
+
+}

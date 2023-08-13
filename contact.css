@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Courier+Prime:ital@1&family=Gasoek+One&family=Oswald&family=Roboto+Mono:ital,wght@1,100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:whitesmoke;
+    height: 10vh;
+    background-color: #219ebc;
+}
+.navbar a{
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.name img{
+    height: 8vh;
+}
+.navbar a:hover{
+    color: #003566;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    background-color: #219ebc;
+    color: whitesmoke;
+    font-size: 2rem;
+    transition-property: all;
+    transition-duration: 2s; 
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    font-size: 2.3rem;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+.contact p{
+    cursor: pointer;
+}
+
+.contact p:hover{
+    cursor: pointer;
+    font-size: 2.5rem;
+    color: #003566;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 1rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .name{
+        width: 15vw;
+    }
+    .name img{
+        height: 8vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80vh;
+        font-size: 1rem;
+        transition-property: all; 
+        transition-duration: 2s;
+    }
+    .contact p{
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    
+    .contact p:hover{
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #003566;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1000px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color:whitesmoke;
+        height: 10vh;
+        background-color: #219ebc;
+    }
+    .navbar a{
+        color: whitesmoke;
+        font-size: 2rem;
+        transition-property: all;
+        transition-duration: 2s;
+    }
+    .navbar a:hover{
+        color: #003566;
+        font-size: 2.5rem;
+        cursor: pointer;
+    }
+    .name{
+        width: 15vw;
+    }
+    .name img{
+        height: 8vh;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 10vh;
+        background-color: #219ebc;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        transition-property: all;
+        transition-duration: 2s; 
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80vh;
+        font-size: 1rem;
+        transition-property: all; 
+        transition-duration: 2s;
+    }
+    .contact p{
+        cursor: pointer;
+        font-size: 2.5rem;
+    }
+    
+    .contact p:hover{
+        cursor: pointer;
+        font-size: 2.5rem;
+        color: #003566;
+    }
+}
